@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "figtree italic";
+  src: url("../fonts/Figtree-Italic-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "figtree";
+  src: url("../fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "figtree";
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 22rem;
+  height: 8rem;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 6px 6px 5px 3px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+}
+
+.card-text {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-header-text > h1 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-top: 15px;
+  &:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+  }
+}
+
+.card-body-text > p {
+  margin-top: 15px;
+}
+
+.pill {
+  background-color: hsl(47, 88%, 63%);
+  width: max-content;
+  padding: 8px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 20px;
+}
+
+.card-footer-text {
+  font-weight: 800;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 50%;
+    height: auto;
+  }
+
+  .card-header-text > h1 {
+    font-size: 1.25rem;
+  }
+
+  .pill,
+  .card-footer-text,
+  .card-body-text > p {
+    font-size: 0.875rem;
+  }
+
+  .attribution {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 70%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px; /* Menos padding para ajustarse a pantallas pequeñas */
+  }
+
+  .card-header-text > h1 {
+    font-size: 1rem;
+  }
+
+  .pill,
+  .card-footer-text,
+  .card-body-text > p {
+    font-size: 0.75rem;
+  }
+}
