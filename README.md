@@ -13,13 +13,13 @@ Este es un **componente de tarjeta de vista previa de blog** tomado de challenge
 - ⚡ **(Opcional: JavaScript si agregas interactividad en el futuro)**.
 
 ## 📂 Estructura del Proyecto
+``` bash
 blog-preview-card/ 
-                 │── index.html # Página principal con la tarjeta 
-                 │── styles.css # Estilos del componente 
-                 │── images/ # Imágenes usadas en la tarjeta 
-                 │── README.md # Archivo de documentación
-
-  
+│── index.html # Página principal con la tarjeta 
+│── styles.css # Estilos del componente 
+│── images/ # Imágenes usadas en la tarjeta 
+│── README.md # Archivo de documentación
+``` 
 ## 🎯 Características
 
 ✅ **Diseño moderno y minimalista** 📄.  
