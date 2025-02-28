@@ -36,12 +36,12 @@ blog-preview-card/
 3. **Personaliza el contenido en index.html y los estilos en styles.css.**
 4. Sube tu tarjeta a GitHub Pages para compartirla en línea. 🌍
 
-##🛠️ Personalización
+## 🛠️ Personalización
 Para modificar el contenido:
 
 - Cambia el título y descripción en index.html.
 - Edita la imagen del artículo dentro de la carpeta images/.
 - Ajusta los colores y tipografías en styles.css según tu preferencia.
 
-##📜 Licencia
+## 📜 Licencia
 Este proyecto está bajo la Licencia MIT, por lo que puedes usarlo y modificarlo libremente.
